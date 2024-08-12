@@ -67,7 +67,6 @@ body {
   background: transparent;
   border: 2px solid transparent;
   text-decoration: none;
-  transform: rotate(45deg);
   transition: 0.5s;
   opacity: 0;
   animation: slideSci 0.5s ease forwards;
@@ -81,7 +80,6 @@ body {
 .social-media a i {
   font-size: 24px;
   color: #eaeaea;
-  transform: rotate(-45deg);
 }
 
 .home {
@@ -235,7 +233,7 @@ body {
   }
 
   100% {
-    transform: translateY(0) rotate(45deg);
+    transform: translateY(0);
     opacity: 1;
   }
 }
